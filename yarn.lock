@@ -2377,7 +2377,7 @@ dir-glob@2.0.0:
 doctrine@0.7.2:
   version "0.7.2"
   resolved "https://registry.npmmirror.com/doctrine/-/doctrine-0.7.2.tgz"
-  integrity sha1-fLhgNZujvpDgQLJrcpzkv6ZUxSM= sha512-qiB/Rir6Un6Ad/TIgTRzsremsTGWzs8j7woXvp14jgq00676uBiBT5eUOi+FgRywZFVy5Us/c04ISRpZhRbS6w==
+  integrity sha512-qiB/Rir6Un6Ad/TIgTRzsremsTGWzs8j7woXvp14jgq00676uBiBT5eUOi+FgRywZFVy5Us/c04ISRpZhRbS6w==
   dependencies:
     esutils "^1.1.6"
     isarray "0.0.1"
@@ -3143,7 +3143,7 @@ estraverse@^4.0.0, estraverse@^4.1.0, estraverse@^4.1.1, estraverse@^4.2.0:
 esutils@^1.1.6:
   version "1.1.6"
   resolved "https://registry.npmmirror.com/esutils/-/esutils-1.1.6.tgz"
-  integrity sha1-wBzKqa5LiXxtDD4hCuUvPHqEQ3U= sha512-RG1ZkUT7iFJG9LSHr7KDuuMSlujfeTtMNIcInURxKAxhMtwQhI3NrQhz26gZQYlsYZQKzsnwtpKrFKj9K9Qu1A==
+  integrity sha512-RG1ZkUT7iFJG9LSHr7KDuuMSlujfeTtMNIcInURxKAxhMtwQhI3NrQhz26gZQYlsYZQKzsnwtpKrFKj9K9Qu1A==
 
 esutils@^2.0.2:
   version "2.0.3"
@@ -6715,9 +6715,9 @@ tsutils@^2.29.0:
     tslib "^1.8.1"
 
 tsutils@^3.0.0:
-  version "3.17.1"
-  resolved "https://registry.npmmirror.com/tsutils/-/tsutils-3.17.1.tgz"
-  integrity sha512-kzeQ5B8H3w60nFY2g8cJIuH7JDpsALXySGtwGJ0p2LSjLgay3NdIpqq5SoOBe46bKDW2iq25irHCr8wjomUS2g==
+  version "3.21.0"
+  resolved "https://registry.npmmirror.com/tsutils/-/tsutils-3.21.0.tgz"
+  integrity sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==
   dependencies:
     tslib "^1.8.1"
 
@@ -6751,10 +6751,20 @@ type@^2.0.0:
   resolved "https://registry.npmmirror.com/type/-/type-2.0.0.tgz"
   integrity sha512-KBt58xCHry4Cejnc2ISQAF7QY+ORngsWfxezO68+12hKV6lQY8P/psIkcbjeHWn7MqcgciWJyCCevFMJdIXpow==
 
-"typescript@^2.2.0 || ^3.0.0", typescript@^3.0.0, "typescript@>= 2.4.2", "typescript@>=2.1.0 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >= 3.0.0-dev || >= 3.1.0-dev", "typescript@>=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >=3.0.0-dev || >= 3.1.0-dev || >= 3.2.0-dev", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta", typescript@3.7.2:
-  version "3.7.2"
-  resolved "https://registry.npmmirror.com/typescript/-/typescript-3.7.2.tgz"
-  integrity sha512-ml7V7JfiN2Xwvcer+XAf2csGO1bPBdRbFCkYBczNZggrBZ9c7G3riSUeJmqEU5uOtXNPMhE3n+R4FA/3YOAWOQ==
+"typescript@^2.2.0 || ^3.0.0", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta":
+  version "3.9.10"
+  resolved "https://registry.npmmirror.com/typescript/-/typescript-3.9.10.tgz"
+  integrity sha512-w6fIxVE/H1PkLKcCPsFqKE7Kv7QUwhU8qQY2MueZXWx5cPZdwFupLgKK3vntcK98BtNHZtAF4LA/yl2a7k8R6Q==
+
+typescript@^3.0.0:
+  version "3.9.10"
+  resolved "https://registry.npmmirror.com/typescript/-/typescript-3.9.10.tgz"
+  integrity sha512-w6fIxVE/H1PkLKcCPsFqKE7Kv7QUwhU8qQY2MueZXWx5cPZdwFupLgKK3vntcK98BtNHZtAF4LA/yl2a7k8R6Q==
+
+"typescript@>= 2.4.2", "typescript@>=2.1.0 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >= 3.0.0-dev || >= 3.1.0-dev", "typescript@>=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >=3.0.0-dev || >= 3.1.0-dev || >= 3.2.0-dev", typescript@4.7.2:
+  version "4.7.2"
+  resolved "https://registry.npmmirror.com/typescript/-/typescript-4.7.2.tgz"
+  integrity sha512-Mamb1iX2FDUpcTRzltPxgWMKy3fhg0TN378ylbktPGPK/99KbDtMQ4W1hwgsbPAsG3a0xKa1vmw4VKZQbkvz5A==
 
 uglify-js@^3.1.4:
   version "3.4.9"
