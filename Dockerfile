@@ -12,9 +12,9 @@ WORKDIR /usr/src/app
 
 COPY package.json /usr/src/app/
 
-RUN npm i
+# RUN npm i
 
-# RUN npm i --registry=https://registry.npm.taobao.org
+RUN npm i --registry=https://registry.npmmirror.com
 
 COPY . /usr/src/app
 
