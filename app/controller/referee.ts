@@ -3,7 +3,7 @@ import { Controller } from 'egg'
 export default class Referee extends Controller {
   public async getReferee() {
     const { refereeId } = this.ctx.query
-    const result = await this.ctx.service.referee.queryReferee(refereeId)
+    const result = await this.ctx.service.referee.queryReferee(refereeId as string)
     this.ctx.body = this.ctx.helper.responseFormat(result)
     return
   }

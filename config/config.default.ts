@@ -42,7 +42,9 @@ export default (appInfo: EggAppInfo) => {
         errMsg,
         status,
       }
-      ctx.body = ctx.headers.accept?.indexOf('application/json') > -1 ? resp : JSON.stringify(resp)
+      if (ctx.headers.accept) {
+        ctx.body = (ctx.headers.accept as string).indexOf('application/json') > -1 ? resp : JSON.stringify(resp)
+      }
     },
   }
 

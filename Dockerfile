@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM node:14-alpine
 
 ENV TIME_ZONE=Asia/Shanghai
 
@@ -12,7 +12,7 @@ WORKDIR /usr/src/app
 
 COPY package.json /usr/src/app/
 
-# RUN npm i
+COPY package-lock.json /usr/src/app/
 
 RUN npm i --registry=https://registry.npmmirror.com
 

@@ -40,7 +40,7 @@ export default class Account extends Controller {
       },
       query
     )
-    const result = await service.account.getLoginStatus(query.code)
+    const result = await service.account.getLoginStatus(query.code as string)
     this.ctx.body = helper.responseFormat(result)
   }
 

@@ -34,7 +34,7 @@ export default class Enrol extends Service {
     if (!some(game.referees, ({ referee }) => isEqual(referee._id, _id))) {
       throw new this.ctx.helper.CustomError(this.ctx.helper.errCode.CANNOT_CANCEL_NOT_ENROLED_GAME)
     }
-    await this.ctx.model.Game.findOneAndUpdate(
+    await (this.ctx.model.Game.findOneAndUpdate as any)(
       { _id: gameId },
       { $pull: { referees: { referee: _id } } }
     )

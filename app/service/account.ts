@@ -23,7 +23,7 @@ export default class Account extends Service {
     }
     // session not expired
     const userId = this.ctx.session?.id
-    let auth = await this.ctx.model.Auth.findOne({ openid: this.ctx.session?.openid })
+    let auth = await this.ctx.model.Auth.findOne({ openid: this.ctx.session?.openid as string | undefined })
     if (userId) {
       return {
         id: userId,
