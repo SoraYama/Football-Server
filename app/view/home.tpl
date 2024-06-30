@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  <title>Hacker News</title>
+  <title>空山小站</title>
   <link rel="stylesheet" href="/public/css/home.css" />
 </head>
 
